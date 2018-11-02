@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61210" started-at="2018-11-02T19:38:05Z" finished-at="2018-11-02T19:39:06Z">
+    <groups>
+    </groups>
+    <test name="hp" duration-ms="12801" started-at="2018-11-02T19:38:05Z" finished-at="2018-11-02T19:38:18Z">
+      <class name="AliExpress.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AliExpress.HomePageTest@55b7a4e0]" name="initialize" is-config="true" duration-ms="7083" started-at="2018-11-02T19:38:05Z" finished-at="2018-11-02T19:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validate()[pri:0, instance:AliExpress.HomePageTest@55b7a4e0]" name="validate" duration-ms="5506" started-at="2018-11-02T19:38:12Z" finished-at="2018-11-02T19:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AliExpress.HomePageTest@55b7a4e0]" name="teardown" is-config="true" duration-ms="193" started-at="2018-11-02T19:38:18Z" finished-at="2018-11-02T19:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AliExpress.HomePageTest -->
+    </test> <!-- hp -->
+    <test name="lp" duration-ms="24945" started-at="2018-11-02T19:38:18Z" finished-at="2018-11-02T19:38:43Z">
+      <class name="AliExpress.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AliExpress.LoginPageTest@6aba2b86]" name="initialize" is-config="true" duration-ms="2159" started-at="2018-11-02T19:38:18Z" finished-at="2018-11-02T19:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AliExpress.LoginPageTest@6aba2b86]" name="basePageNavigation" duration-ms="7157" started-at="2018-11-02T19:38:20Z" data-provider="getData" finished-at="2018-11-02T19:38:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[limited user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AliExpress.LoginPageTest@6aba2b86]" name="basePageNavigation" duration-ms="13555" started-at="2018-11-02T19:38:27Z" data-provider="getData" finished-at="2018-11-02T19:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[456@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[full user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AliExpress.LoginPageTest@6aba2b86]" name="teardown" is-config="true" duration-ms="2066" started-at="2018-11-02T19:38:41Z" finished-at="2018-11-02T19:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AliExpress.LoginPageTest -->
+    </test> <!-- lp -->
+    <test name="Pt" duration-ms="23428" started-at="2018-11-02T19:38:43Z" finished-at="2018-11-02T19:39:06Z">
+      <class name="AliExpress.ProductPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AliExpress.ProductPageTest@44ebcd03]" name="initialize" is-config="true" duration-ms="6308" started-at="2018-11-02T19:38:43Z" finished-at="2018-11-02T19:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="productselection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AliExpress.ProductPageTest@44ebcd03]" name="productselection" duration-ms="16312" started-at="2018-11-02T19:38:49Z" finished-at="2018-11-02T19:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jiaziqql@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jiazi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1833 Stone RD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6136663879]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productselection -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AliExpress.ProductPageTest@44ebcd03]" name="teardown" is-config="true" duration-ms="806" started-at="2018-11-02T19:39:05Z" finished-at="2018-11-02T19:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AliExpress.ProductPageTest -->
+    </test> <!-- Pt -->
+  </suite> <!-- Suite -->
+</testng-results>

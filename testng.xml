@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="AliExpress.listener"/>
+<listener class-name="resources.ExtentReporter"/>
+</listeners>
+
+ <test name="hp">
+ <classes>
+      <class name="AliExpress.HomePageTest"/>
+	</classes>
+</test>
+
+<test name="lp">
+ <classes>
+     	<class name="AliExpress.LoginPageTest"/>
+	</classes>
+</test>
+
+  <test name="Pt">
+  <parameter name="email" value="jiaziqql@gmail.com"/>
+<parameter name="name" value="jiazi"/>
+<parameter name="address" value="1833 Stone RD"/>
+<parameter name="mobile" value="6136663879"/>
+<parameter name="zip" value="21356"/>
+    <classes>
+      <class name="AliExpress.ProductPageTest"/>
+	</classes>
+</test>
+
+      
+</suite> <!-- Suite -->

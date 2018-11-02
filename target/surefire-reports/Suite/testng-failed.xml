@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="AliExpress.listener"/>
+    <listener class-name="resources.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Pt(failed)">
+    <parameter name="zip" value="21356"/>
+    <parameter name="address" value="1833 Stone RD"/>
+    <parameter name="name" value="jiazi"/>
+    <parameter name="mobile" value="6136663879"/>
+    <parameter name="email" value="jiaziqql@gmail.com"/>
+    <classes>
+      <class name="AliExpress.ProductPageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="productselection" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AliExpress.ProductPageTest -->
+    </classes>
+  </test> <!-- Pt(failed) -->
+</suite> <!-- Failed suite [Suite] -->
